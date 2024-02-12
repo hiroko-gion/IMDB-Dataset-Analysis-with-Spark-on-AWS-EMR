@@ -21,16 +21,16 @@ This project involves the analysis of IMDB datasets sourced from Kaggle using Sp
     PySpark, the Python API for Apache Spark, served as a primary tool for data analysis.<br>It provided access to Spark's powerful DataFrame API and Spark SQL functionalities, enabling efficient processing and analysis of large-scale datasets.
    
 ### Analysis Tasks
-1. Initial Setup:
+1. **Initial Setup**:
 - Importing necessary dependencies (pandas and matplotlib)
 - Loading the IMDB dataset into a PySpark DataFrame
-2. Genres Analysis:
+2. **Genres Analysis**:
 - Denormalize genres associated with titles and conduct basic analysis
 - Build a horizontal bar chart of top genres
-3. Job Categories Analysis:
+3. **Job Categories Analysis**:
 - Identifying top job categories within the dataset
 - Build a bar chart of top job categories
-4. Answering Key Questions:
+4. **Answering Key Questions**:
 Addressing specific inquiries related to actors, movies, ratings, and genres.
 - What are the movies in which both Johnny Depp and Helena Bonham Carter have acted together?
 - What are the movies in which Brad Pitt has acted since 2010?
