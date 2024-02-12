@@ -11,9 +11,15 @@ This project involves the analysis of IMDB datasets sourced from Kaggle using Sp
 
 ## Project Scope
 ### Infrastructure Provisioning
-- Provisioning a Spark cluster on AWS EMR
-- Integration of the cluster with a Jupyter Notebook
-- Retrieval of IMDB data from a publicly available S3 bucket
+1. **Provisioning a Spark cluster on AWS EMR**:
+    Utilized Amazon Web Services' Elastic MapReduce (EMR) platform to provision a Spark cluster, enabling distributed data processing capabilities.
+2. **Integration of the cluster with a Jupyter Notebook**:
+    Seamlessly integrated the Spark cluster provisioned on AWS EMR with a Jupyter Notebook environment. This integration facilitated interactive data analysis and visualization.
+3. **Retrieval of IMDB data from a publicly available S3 bucket**:
+    Retrieved the IMDB datasets from a publicly available S3 bucket on AWS. This approach ensured seamless access to the dataset within the Spark cluster for analysis.
+4. **PySpark**
+    PySpark, the Python API for Apache Spark, served as a primary tool for data analysis. It provided access to Spark's powerful DataFrame API and Spark SQL functionalities, enabling efficient processing and analysis of large-scale datasets.
+   
 ### Analysis Tasks
 1. Initial Setup:
 - Importing necessary dependencies (pandas and matplotlib)
